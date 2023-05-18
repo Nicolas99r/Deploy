@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./wave_background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+canvas {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.568);
+    -webkit-box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.75);
+}
